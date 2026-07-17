@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@font-face {
+  font-family: Comfortaa;
+  src: url("assets/Comfortaa-VariableFont_wght.ttf");
+}
+
+* {
+  font-family: Comfortaa;
+  color: #4b4b4b;
+}
