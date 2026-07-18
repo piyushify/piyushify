@@ -12,4 +12,4 @@ function Menuicon() {
   );
 }
 
-export default Menuicon;
+export default Menuicon
