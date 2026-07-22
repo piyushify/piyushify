@@ -1,0 +1,26 @@
+import Cicon from "./Cicon.jsx"
+import Htmlicon from "./Htmlicon.jsx"
+import Cssicon from "./Cssicon.jsx"
+import Jsicon from "./Jsicon.jsx"
+import Reactjsicon from "./Reactjsicon.jsx"
+import Tailwindcssicon from "./Tailwindcssicon.jsx"
+import Phpicon from "./Phpicon.jsx"
+
+function Skills(){
+  return (
+    <section className="">
+      <h2 className="p-6 text-center font-bold text-2xl md:text-3xl lg:text-4xl text-shadow-md">Skills</h2>
+      <ul className="text-xl font-semibold *:py-2 *:text-center *:shadow-sm *:inset-shadow-sm *:m-5 *:rounded-xl *:flex *:items-center *:justify-center">
+        <li><Cicon/> C language</li>
+        <li><Htmlicon/> HTML</li>
+        <li><Cssicon/> CSS</li>
+        <li><Jsicon/> JavaScript</li>
+        <li><Phpicon/> Php</li>
+        <li><Reactjsicon/> ReactJS</li>
+        <li><Tailwindcssicon/> Tailwind CSS</li>
+      </ul>
+      </section>
+  )
+}
+
+export default Skills
