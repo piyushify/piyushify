@@ -1,17 +1,17 @@
-import Cicon from "./Cicon.jsx"
-import Htmlicon from "./Htmlicon.jsx"
-import Cssicon from "./Cssicon.jsx"
-import Jsicon from "./Jsicon.jsx"
-import Phpicon from "./Phpicon.jsx"
-import Mysqlicon from "./Mysqlicon.jsx"
-import Reactjsicon from "./Reactjsicon.jsx"
-import Tailwindcssicon from "./Tailwindcssicon.jsx"
+import Cicon from "./icons/Cicon.jsx"
+import Htmlicon from "./icons/Htmlicon.jsx"
+import Cssicon from "./icons/Cssicon.jsx"
+import Jsicon from "./icons/Jsicon.jsx"
+import Phpicon from "./icons/Phpicon.jsx"
+import Mysqlicon from "./icons/Mysqlicon.jsx"
+import Reactjsicon from "./icons/Reactjsicon.jsx"
+import Tailwindcssicon from "./icons/Tailwindcssicon.jsx"
 
 
 function Skills(){
   return (
     <section className="">
-      <h2 className="p-6 text-center font-bold text-2xl md:text-3xl lg:text-4xl text-shadow-md">Skills</h2>
+      <h2 className="p-6 text-center font-bold text-2xl md:text-3xl lg:text-4xl text-shadow-lg">Skills</h2>
       <ul className="text-xl font-semibold *:py-2 *:text-center *:shadow-sm *:inset-shadow-sm *:m-5 *:rounded-xl *:flex *:items-center *:justify-center">
         <li><Cicon/> C language</li>
         <li><Htmlicon/> HTML</li>
