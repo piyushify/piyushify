@@ -2,9 +2,11 @@ import Cicon from "./Cicon.jsx"
 import Htmlicon from "./Htmlicon.jsx"
 import Cssicon from "./Cssicon.jsx"
 import Jsicon from "./Jsicon.jsx"
+import Phpicon from "./Phpicon.jsx"
+import Mysqlicon from "./Mysqlicon.jsx"
 import Reactjsicon from "./Reactjsicon.jsx"
 import Tailwindcssicon from "./Tailwindcssicon.jsx"
-import Phpicon from "./Phpicon.jsx"
+
 
 function Skills(){
   return (
@@ -16,6 +18,7 @@ function Skills(){
         <li><Cssicon/> CSS</li>
         <li><Jsicon/> JavaScript</li>
         <li><Phpicon/> Php</li>
+        <li><Mysqlicon/> Mysql</li>
         <li><Reactjsicon/> ReactJS</li>
         <li><Tailwindcssicon/> Tailwind CSS</li>
       </ul>
